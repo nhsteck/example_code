@@ -16,5 +16,5 @@ function generateMD5(inputString) {
 
 // Test
 var originText = "nhsteck.com";
-var hashText = generateMD5(originText).toString();
+var hashText = md5.generateMD5(originText).toString();
 console.log(hashText);
