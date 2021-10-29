@@ -14,4 +14,9 @@ public class Hash {
         return sha1Hex;
     }
 
+    public static String generateSHA256(String inputString) throws Exception {
+        String strHex = DigestUtils.sha256Hex(inputString);
+        return strHex;
+    }
+
 }
