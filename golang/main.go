@@ -2,6 +2,7 @@ package main
 
 import (
 	"crypto/md5"
+	"crypto/sha1"
 	"encoding/hex"
 	"fmt"
 )
@@ -13,8 +14,16 @@ func generateMD5(inputString string) string {
 	return md5Hex
 }
 
+func generateSHA1(inputString string) string {
+	bData := []byte(inputString)
+	bHex := sha1.Sum(bData)
+	strHex := hex.EncodeToString(bHex[:])
+	return strHex
+}
+
 func main() {
 	inputString := "nhsteck.com"
-	md5Hex := generateMD5(inputString)
-	fmt.Println(md5Hex)
+	// strHex := generateMD5(inputString)
+	strHex := generateSHA1(inputString)
+	fmt.Println(strHex)
 }

@@ -13,7 +13,7 @@
         },
         {
             "name": "Launch JS",
-            "program": "${workspaceFolder}/javascript/main.js",
+            "program": "${workspaceFolder}/javascript/hash.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
