@@ -17,10 +17,8 @@
   * How to generate SHA1 in Golang? [Link](https://nhsteck.com/hash-online/sha1-hash-online#code_go)
 
 ### SHA256 hash online
-  * Tool: [https://nhsteck.com/hash-online/sha256-hash-online](https://nhsteck.com/hash-online/
-sha256-hash-online)
-  * How to generate SHA1 in Javascript? [Link](https://nhsteck.com/hash-online/
-sha256-hash-online#code_js)
+  * Tool: [https://nhsteck.com/hash-online/sha256-hash-online](https://nhsteck.com/hash-online/sha256-hash-online)
+  * How to generate SHA1 in Javascript? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_js)
   * How to generate SHA1 in Java? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_java)
   * How to generate SHA1 in Golang? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_go)
 
