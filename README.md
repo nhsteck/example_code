@@ -18,8 +18,14 @@
 
 ### SHA256 hash online
   * Tool: [https://nhsteck.com/hash-online/sha256-hash-online](https://nhsteck.com/hash-online/sha256-hash-online)
-  * How to generate SHA1 in Javascript? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_js)
-  * How to generate SHA1 in Java? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_java)
-  * How to generate SHA1 in Golang? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_go)
+  * How to generate SHA256 in Javascript? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_js)
+  * How to generate SHA256 in Java? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_java)
+  * How to generate SHA256 in Golang? [Link](https://nhsteck.com/hash-online/sha256-hash-online#code_go)
+
+### SHA512 hash online
+  * Tool: [https://nhsteck.com/hash-online/sha512-hash-online](https://nhsteck.com/hash-online/sha512-hash-online)
+  * How to generate SHA512 in Javascript? [Link](https://nhsteck.com/hash-online/sha512-hash-online#code_js)
+  * How to generate SHA512 in Java? [Link](https://nhsteck.com/hash-online/sha512-hash-online#code_java)
+  * How to generate SHA512 in Golang? [Link](https://nhsteck.com/hash-online/sha512-hash-online#code_go)
 
 ## List of Utility tools (Coming soon)

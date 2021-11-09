@@ -5,6 +5,7 @@
 var md5 = require('crypto-js/md5');
 var sha1 = require('crypto-js/sha1');
 var sha256 = require('crypto-js/sha256');
+var sha512 = require('crypto-js/sha512');
 
 /**
  * Function for generate md5 string
@@ -36,7 +37,17 @@ function generateSHA256(inputString) {
     return hashText;
 }
 
+/**
+ * Function for generate sha512 string
+ * @param {string} inputString: text need to generate
+ * @returns {string}
+*/
+function generateSHA512(inputString) {
+    let hashText = sha512(inputString);
+    return hashText;
+}
+
 // Test
 var originText = "nhsteck.com";
-var hashText = generateSHA256(originText).toString();
+var hashText = generateSHA512(originText).toString();
 console.log(hashText);

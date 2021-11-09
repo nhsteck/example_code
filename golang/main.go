@@ -4,6 +4,7 @@ import (
 	"crypto/md5"
 	"crypto/sha1"
 	"crypto/sha256"
+	"crypto/sha512"
 	"encoding/hex"
 	"fmt"
 )
@@ -29,10 +30,18 @@ func generateSHA256(inputString string) string {
 	return strHex
 }
 
+func generateSHA512(inputString string) string {
+	bData := []byte(inputString)
+	bHex := sha512.Sum512(bData)
+	strHex := hex.EncodeToString(bHex[:])
+	return strHex
+}
+
 func main() {
 	inputString := "nhsteck.com"
 	// strHex := generateMD5(inputString)
 	// strHex := generateSHA1(inputString)
-	strHex := generateSHA256(inputString)
+	// strHex := generateSHA256(inputString)
+	strHex := generateSHA512(inputString)
 	fmt.Println(strHex)
 }
