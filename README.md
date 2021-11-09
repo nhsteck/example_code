@@ -28,4 +28,10 @@
   * How to generate SHA512 in Java? [Link](https://nhsteck.com/hash-online/sha512-hash-online#code_java)
   * How to generate SHA512 in Golang? [Link](https://nhsteck.com/hash-online/sha512-hash-online#code_go)
 
+### Argon2 hash online
+  * Tool: [https://nhsteck.com/hash-online/argon2-hash-online](https://nhsteck.com/hash-online/argon2-hash-online)
+  * How to generate Argon2 in Javascript? [Link](https://nhsteck.com/hash-online/argon2-hash-online#code_js)
+  * How to generate Argon2 in Java? [Link](https://nhsteck.com/hash-online/argon2-hash-online#code_java)
+  * How to generate Argon2 in Golang? [Link](https://nhsteck.com/hash-online/argon2-hash-online#code_go)
+
 ## List of Utility tools (Coming soon)
